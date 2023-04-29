@@ -1,0 +1,49 @@
+.results-component-container{
+    background: linear-gradient(var(--lightSlateBlue), var(--lightRoyalBlue));
+    text-align:center;
+    color:var(--white);
+    border-bottom-left-radius:.888rem;
+    border-bottom-right-radius:.888rem;
+}
+
+.results-title,
+.results-score,
+.results-comparison{
+    color:var(--lightLavendar);
+}
+
+.results-title,
+.results-desc{
+    padding:1.25rem 0;
+}
+
+.results-score-container{
+    display:inline-block;
+    padding:1.75rem;
+    background:linear-gradient(var(--violetBlue), var(--persianBlue));
+    border-radius:50%;
+}
+
+
+.results-myscore{
+    color:var(--white);
+    display:block;
+    font-size:2rem;
+    font-weight:800;
+    padding-bottom:.5rem;
+}
+
+.results-comparison{
+    padding-bottom:1.75rem;
+    margin:0 auto;
+    max-width:17.66rem;
+}
+
+
+@media (min-width:750px) {
+    .results-component-container{
+        box-shadow:0 2px 10px var(--paleBlue);
+        border-top-left-radius: .88rem;
+        border-top-right-radius: .88rem;
+    }
+}
